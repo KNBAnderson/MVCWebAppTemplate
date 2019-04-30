@@ -18,7 +18,8 @@ _Structure and files to build an Epicodus C# Week 2 Project:_
 ## Setup/Installation Requirements
 
 * _Clone from GitHub_
-* _$cd MVCWebAppTemplate_
+* _(Optional) $mv MVCWebAppTemplate DirectoryNameOfYourChoice_
+* _$cd MVCWebAppTemplate (or new name if renamed)_
 * _$rm -rf .git to delete my commit history_
 * _$git init to create a new git repository_
 * _$atom . to open all the files in Atom_
@@ -26,8 +27,7 @@ _Structure and files to build an Epicodus C# Week 2 Project:_
 * _(Optional) Rename namespaces and class names in the .cs files_
 * _$cd ProjectName (or new name if renamed)_
 * _$dotnet restore to install packages from the .csproj file_
-* _$dotnet build to run MSBuild_
-* _$dotnet run to check that the program works_
+* _$dotnet run to run the application_
 
 _And you're done! You can commit this to a repository of your choice as your initial commit._
 
