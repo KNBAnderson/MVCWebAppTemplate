@@ -31,6 +31,7 @@ namespace ProjectName
         name: "default",
         template: "{controller=Home}/{action=Index}/{id?}");
       });
+      app.UseStaticFiles();
 
       app.Run(async (context) =>
       {

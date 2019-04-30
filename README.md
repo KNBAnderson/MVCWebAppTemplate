@@ -2,7 +2,7 @@
 
 #### _Structure and files to build an Epicodus C# Week 2 Project, last updated 04/29/2019_
 
-#### By _**Marc Davies**_
+#### By _**Your name here**_
 
 ## Description
 
@@ -13,6 +13,7 @@ _Structure and files to build an Epicodus C# Week 2 Project:_
 * _A Controllers subdirectory, including HomeControllers.cs_
 * _A Models subdirectory, including ProjectVariable.cs_
 * _A Views/Home subdirectory, including Input.cshtml and Output.cshtml (names match in HomeControllers.cs)_
+* _A wwwroot/css subdirectory, including styles.css_
 
 ## Setup/Installation Requirements
 
@@ -48,14 +49,14 @@ _None as of last update_
 
 ## Support and contact details
 
-_Please contact me at marcdaviesriot@gmail.com if you run into any issues or have questions, ideas or feedback._
+_Please contact me at youremail@gmail.com if you run into any issues or have questions, ideas or feedback._
 
 ## Technologies Used
 
-_C#_
+_C#, ASP.NET Core, MVC_
 
 ### License
 
 *This software is licensed under the GPL license.*
 
-Copyright (c) 2019 **_Marc Davies_**
+Copyright (c) 2019 **_Your name here_**

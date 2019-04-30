@@ -2,27 +2,27 @@ namespace ProjectName.Models
 {
   public class ProjectVariable
   {
-    private string _recipient;
-    private string _sender;
+    private string _input1;
+    private string _input2;
 
-    public string GetRecipient()
+    public string GetInput1()
     {
-      return _recipient;
+      return _input1;
     }
 
-    public void SetRecipient(string newRecipient)
+    public void SetInput1(string newInput1)
     {
-      _recipient = newRecipient;
+      _input1 = newInput1;
     }
 
-    public string GetSender()
+    public string GetInput2()
     {
-      return _sender;
+      return _input2;
     }
 
-    public void SetSender(string newSender)
+    public void SetInput2(string newInput2)
     {
-      _sender = newSender;
+      _input2 = newInput2;
     }
 
   }

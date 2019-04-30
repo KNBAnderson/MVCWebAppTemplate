@@ -10,11 +10,11 @@ namespace ProjectName.Controllers
     public ActionResult Input() { return View(); }
 
     [Route("/output")]
-    public ActionResult Output(string recipient, string sender)
+    public ActionResult Output(string input1, string input2)
     {
       ProjectVariable myProjectVariable = new ProjectVariable();
-      myProjectVariable.SetRecipient(recipient);
-      myProjectVariable.SetSender(sender);
+      myProjectVariable.SetInput1(input1);
+      myProjectVariable.SetInput2(input2);
       return View(myProjectVariable);
     }
 
